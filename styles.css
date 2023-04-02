@@ -8,6 +8,7 @@ header {
 /* Center the main content */
 main {
   margin: 0 auto;
+  color: #ffffff;
   padding: 20px;
     background-color: #000000;
 }
