@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Cloth Company - Products</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /* Define the grid layout */
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 20px;
+      }
+      
+      /* Define the card styles */
+      .card {
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+      
+      /* Define the image styles */
+      .card img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      /* Define the heading styles */
+      .card h3 {
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Cloth Company - Products</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <div class="grid-container">
+        <div class="card">
+          <img src="cotton-fabric.jpg" alt="Cotton Fabric">
+          <h3>Cotton Fabrics</h3>
+          <p>Our collection of cotton fabrics includes a variety of colors and prints, perfect for making everything from dresses to quilts.</p>
+        </div>
+        <div class="card">
+          <img src="silk-fabric.jpg" alt="Silk Fabric">
+          <h3>Silk Fabrics</h3>
+          <p>Our silk fabrics are soft and luxurious, perfect for creating elegant evening wear or adding a touch of luxury to your home decor.</p>
+        </div>
+        <div class="card">
+          <img src="wool-fabric.jpg" alt="Wool Fabric">
+          <h3>Wool Fabrics</h3>
+          <p>Our wool fabrics are warm and durable, perfect for creating cozy winter coats, suits, and other cold-weather garments.</p>
+        </div>
+        <div class="card">
+          <img src="dress.jpg" alt="Dress">
+          <h3>Dresses</h3>
+          <p>Our collection of dresses includes a variety of styles, from casual summer dresses to elegant evening gowns.</p>
+        </div>
+        <div class="card">
+          <img src="shirt.jpg" alt="Shirt">
+          <h3>Shirts</h3>
+          <p>Our collection of shirts includes a variety of styles, from classic button-downs to trendy graphic tees.</p>
+        </div>
+        <div class="card">
+          <img src="pants.jpg" alt="Pants">
+          <h3>Pants</h3>
+          <p>Our collection of pants includes a variety of styles, from casual jeans to dressy slacks.</p>
+        </div>
+      </div>
+    </main>
+    
+    <footer>
+      <p>&copy; 2023 My Cloth Company. All rights reserved.</p
