@@ -1,8 +1,10 @@
 /* Apply a blue background color to the header */
-header {
+body {
   background-color: #000000;
+}
+
+header {
   color: #fff;
-  padding: 10px;
 }
 
 /* Center the main content */
@@ -16,5 +18,4 @@ main {
 footer {
   background-color: #000000;
   color: #ffffff;
-  padding: 10px;
 }
