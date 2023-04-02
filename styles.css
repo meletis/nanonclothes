@@ -1,6 +1,6 @@
 /* Apply a blue background color to the header */
 header {
-  background-color: #0074D9;
+  background-color: #000000;
   color: #fff;
   padding: 10px;
 }
@@ -10,11 +10,12 @@ main {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+    background-color: #000000;
 }
 
 /* Apply a gray background color to the footer */
 footer {
-  background-color: #f5f5f5;
+  background-color: #000000;
   color: #333;
   padding: 10px;
 }
